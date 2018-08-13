@@ -1,2 +1,3 @@
 # attendy
-Keeping track of all Attendy code.
+
+This is where I'll be keeping track of all Attendy code.
