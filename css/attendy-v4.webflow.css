@@ -1,0 +1,344 @@
+.image {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image.create {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: inline-block;
+}
+
+.text-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: Exo, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container-2 {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+}
+
+.link {
+  display: inline-block;
+  width: 400px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #2db1ff;
+  font-family: Exo, sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.link:hover {
+  background-color: #9bcfee;
+}
+
+.button-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.social {
+  display: block;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.link-block {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.link-block.w--current {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.twitter {
+  display: block;
+}
+
+.text-block-2 {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  direction: ltr;
+  font-family: Exo, sans-serif;
+  color: #000;
+  text-align: center;
+  text-transform: none;
+}
+
+.text-span {
+  line-height: 60px;
+  letter-spacing: 3px;
+}
+
+.link-block-2 {
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.html-embed {
+  display: block;
+}
+
+.div-block {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  height: 10%;
+  margin-top: 60px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section-2 {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 10%;
+  margin-top: 17%;
+}
+
+.html-embed-2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-button {
+  margin-top: 0px;
+  margin-right: 30px;
+  padding: 10px;
+  border: 1px solid #2db1ff;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 0 #000;
+  font-family: Exo, sans-serif;
+}
+
+.nav-button.log {
+  margin-top: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-width: 2px;
+  color: #2db1ff;
+}
+
+.nav-button.log:hover {
+  border-color: #1a79b1;
+  color: #1a79b1;
+}
+
+.nav-button.sign {
+  margin-top: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #2db1ff;
+  color: #fff;
+}
+
+.nav-button.sign:hover {
+  border-color: #1a79b1;
+  background-color: #1a79b1;
+}
+
+.section-3 {
+  margin-top: 90px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .container-2 {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+  }
+  .button-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .social {
+    display: inline;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .text-block-2 {
+    display: block;
+    margin-top: 35px;
+  }
+  .div-block {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+    height: 10%;
+    margin-top: 30px;
+  }
+  .section {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+  }
+  .section-2 {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-2 {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .text-block {
+    width: 80%;
+  }
+  .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .link {
+    width: 80%;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 21px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .button-block {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .text-block-2 {
+    display: block;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .div-block {
+    position: static;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 10%;
+  }
+  .section-2 {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 60px;
+  }
+  .nav-button.sign {
+    margin-top: 0px;
+  }
+  .section-3 {
+    margin-top: 0px;
+  }
+}
