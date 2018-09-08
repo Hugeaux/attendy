@@ -1817,7 +1817,7 @@ textarea.w-select {
       display: inline-block;
     }
 
-    [netlify-identity-menu] a {
+    [data-netlify-identity-menu] a {
       display: block;
       position: relative;
       width: 192px;
