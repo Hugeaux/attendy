@@ -1797,3 +1797,13 @@ textarea.w-select {
       text-decoration: none;
       white-space: nowrap;
     }
+
+[data-netlify-identity-menu] a:hover,
+    [data-netlify-identity-menu] a:focus {
+      background-color: #007a70;
+      text-decoration: none;
+    }
+
+    [data-netlify-identity-menu] ul {
+      display: flex;
+    }
