@@ -1800,7 +1800,7 @@ textarea.w-select {
 
 [data-netlify-identity-menu] a:hover,
     [data-netlify-identity-menu] a:focus {
-      background-color: #007a70;
+      background-color: #2db1ff;
       text-decoration: none;
     }
 
@@ -1827,7 +1827,7 @@ textarea.w-select {
       cursor: pointer;
       border: 2px solid #007a70;
       border-radius: 4px;
-      background-color: #00ad9F;
+      background-color: #2db1ff;
       color: white;
       transition: background-color 0.2s ease;
       font-size: 16px;
@@ -1840,6 +1840,6 @@ textarea.w-select {
 
     [data-netlify-identity-menu] a:hover,
     [data-netlify-identity-menu] a:focus {
-      background-color: #007a70;
+      background-color: #2db1ff;
       text-decoration: none;
     }
