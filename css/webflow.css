@@ -1775,7 +1775,7 @@ textarea.w-select {
   display: none !important;
 }
 
-[data-netlify-identity-menu] a {
+[data-netlify-identity-button] a {
       display: block;
       position: relative;
       width: 100%;
@@ -1800,7 +1800,7 @@ textarea.w-select {
 
 [data-netlify-identity-menu] a:hover,
     [data-netlify-identity-menu] a:focus {
-      background-color: #2db1ff;
+      background-color: #1a79b1;
       text-decoration: none;
     }
 
@@ -1840,6 +1840,6 @@ textarea.w-select {
 
     [data-netlify-identity-menu] a:hover,
     [data-netlify-identity-menu] a:focus {
-      background-color: #2db1ff;
+      background-color: #1a79b1;
       text-decoration: none;
     }
