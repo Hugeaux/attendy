@@ -1775,7 +1775,7 @@ textarea.w-select {
   display: none !important;
 }
 
-[data-netlify-identity-button] a {
+[data-netlify-identity-menu] a {
       display: block;
       position: relative;
       width: 100%;
