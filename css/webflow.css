@@ -1804,15 +1804,15 @@ textarea.w-select {
       text-decoration: none;
     }
 
-    [netlify-identity-menu] ul {
+    [data-netlify-identity-menu] ul {
       display: flex;
     }
 
-    [netlify-identity-menu] li:first-child {
+    [data-netlify-identity-menu] li:first-child {
       margin-right: 16px;
     }
 
-    [netlify-identity-menu] li {
+    [data-netlify-identity-menu] li {
       list-style-type: none;
       display: inline-block;
     }
@@ -1838,8 +1838,8 @@ textarea.w-select {
       white-space: nowrap;
     }
 
-    [netlify-identity-menu] a:hover,
-    [netlify-identity-menu] a:focus {
+    [data-netlify-identity-menu] a:hover,
+    [data-netlify-identity-menu] a:focus {
       background-color: #007a70;
       text-decoration: none;
     }
@@ -1854,3 +1854,12 @@ textarea.w-select {
       display: block;
       margin-top: 8px;
     }
+
+      [data-netlify-identity-menu] ul {
+        display: flex;
+        flex-direction: column;
+      }
+
+      [data-netlify-identity-menu] li {
+        margin-bottom: 16px;
+      }
