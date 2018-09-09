@@ -1835,6 +1835,11 @@ textarea.w-select {
     color:white;
     }
 
+    .modalDialog {
+      margin-top:45px;
+      z-index: 5;
+    }
+
     [data-netlify-identity-menu] a:hover,
     [data-netlify-identity-menu] a:focus {
       border-color: #1a79b1;
