@@ -1807,6 +1807,7 @@ textarea.w-select {
 
     [data-netlify-identity-menu] ul {
       display: flex;
+      margin-top:45px;
     }
 
 [data-netlify-identity-menu] li:first-child {
