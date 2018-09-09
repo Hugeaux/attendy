@@ -1839,3 +1839,17 @@ textarea.w-select {
       border-color: #1a79b1;
       background-color: #1a79b1;
     }
+
+    .netlify-identity-signup {
+      margin-top: 45px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-width: 2px;
+      color: #2db1ff;
+    }
+
+    .netlify-identity-signup:hover {
+      border-color: #1a79b1;
+      background-color:#1a79b1;
+      color: #fff;
+    }
