@@ -1778,6 +1778,7 @@ textarea.w-select {
 [data-netlify-identity-button] a {
       display: block;
       position: relative;
+      margin-top:45px;
       width: 100%;
       max-width: 184px;
       height: auto;
