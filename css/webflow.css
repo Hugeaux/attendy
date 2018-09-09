@@ -1827,6 +1827,7 @@ textarea.w-select {
     font-family: Exo, sans-serif;
     font-weight: bold;
     text-decoration: none;
+    color:white;
     }
 
     [data-netlify-identity-menu] a:hover,
