@@ -181,6 +181,7 @@
 
 .navbar {
   background-color: transparent;
+  z-index:-1;
 }
 
 .nav-button {
