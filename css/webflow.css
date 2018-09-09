@@ -1819,12 +1819,14 @@ textarea.w-select {
 
     [data-netlify-identity-menu] a {
     margin-top: 0px;
-  margin-right: 30px;
-  padding: 10px;
-  border: 1px solid #2db1ff;
-  border-radius: 8px;
-  box-shadow: 1px 1px 3px 0 #000;
-  font-family: Exo, sans-serif;
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #2db1ff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px 0 #000;
+    font-family: Exo, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
     }
 
     [data-netlify-identity-menu] a:hover,
