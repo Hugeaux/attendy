@@ -1837,6 +1837,7 @@ textarea.w-select {
 
     .modalDialog {
       margin-top:45px;
+      z-index: 1;
     }
 
     [data-netlify-identity-menu] a:hover,
